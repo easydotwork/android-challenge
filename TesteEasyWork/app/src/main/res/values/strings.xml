@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">QR Code Scanner</string>
+
+    <!-- Navigation -->
+    <string name="home_fragment_label" translatable="false">Home</string>
+    <string name="scanner_fragment_label">QRCode Scanner</string>
+    <string name="user_data_fragment_label" translatable="false">User</string>
+
+    <!--  Fragment Home  -->
+    <string name="text_title">Hello, Alfredo</string>
+    <string name="text_subtitle">Your contact QR Code:</string>
+    <string name="contentDescription_your_qrcode">Your QR Code</string>
+    <string name="button_text">Read someone else QR Code</string>
+
+    <!--  Fragment User Data  -->
+    <string name="contentDescription_back_button">Back</string>
+    <string name="text_contact_details">Contact Details</string>
+    <string name="contentDescription_user_photo">Contact Photo</string>
+    <string name="text_name">Name:</string>
+    <string name="text_name_data" translatable="false">João da Silva</string>
+    <string name="text_email" translatable="false">Email:</string>
+    <string name="text_email_data" translatable="false">joao.silva@easy.work</string>
+    <string name="button_back">Back</string>
+
+    <!--  ERROR  -->
+    <string name="error">Ops! Some thing went wrong please try again later.</string>
+</resources>

@@ -1,0 +1,41 @@
+<resources>
+    <dimen name="default_text_size_14sp">14sp</dimen>
+    <dimen name="text_size_16sp">16sp</dimen>
+    <dimen name="text_size_22sp">22sp</dimen>
+    <dimen name="text_size_24sp">24sp</dimen>
+
+    <dimen name="margin_7dp">7dp</dimen>
+    <dimen name="margin_18dp">18dp</dimen>
+    <dimen name="margin_19dp">19dp</dimen>
+    <dimen name="margin_29dp">29dp</dimen>
+    <dimen name="margin_40dp">40dp</dimen>
+    <dimen name="margin_52dp">52dp</dimen>
+    <dimen name="margin_58dp">58dp</dimen>
+    <dimen name="margin_59dp">59dp</dimen>
+    <dimen name="margin_60dp">60dp</dimen>
+    <dimen name="margin_66dp">66dp</dimen>
+    <dimen name="margin_79dp">79dp</dimen>
+    <dimen name="margin_97dp">97dp</dimen>
+    <dimen name="margin_109dp">109dp</dimen>
+    <dimen name="margin_117dp">117dp</dimen>
+    <dimen name="margin_123dp">123dp</dimen>
+    <dimen name="margin_132dp">132dp</dimen>
+    <dimen name="margin_171dp">171dp</dimen>
+
+    <dimen name="default_button_height">44dp</dimen>
+
+    <dimen name="default_radius_9dp">9dp</dimen>
+
+    <dimen name="default_padding_14dp">14dp</dimen>
+
+    <!--  QRCode frame  -->
+    <dimen name="qrcode_frame_width">261dp</dimen>
+    <dimen name="qrcode_frame_height">260dp</dimen>
+
+    <!--  Photo frame  -->
+    <dimen name="photo_user_frame_width">34dp</dimen>
+    <dimen name="photo_user_frame_height">34dp</dimen>
+    <dimen name="photo_frame_width">111dp</dimen>
+    <dimen name="photo_frame_height">111dp</dimen>
+
+</resources>

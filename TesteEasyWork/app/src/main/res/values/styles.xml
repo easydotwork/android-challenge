@@ -1,0 +1,57 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="android:windowBackground">@color/colorBackgroundLight</item>
+
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:statusBarColor">@color/colorBackgroundLight</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="TextTitle" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">@dimen/text_size_24sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextSubtitle" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">@color/colorGrayDark</item>
+        <item name="android:textSize">@dimen/text_size_16sp</item>
+    </style>
+
+    <style name="TextHint" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">@color/colorGray</item>
+        <item name="android:textSize">@dimen/text_size_16sp</item>
+    </style>
+
+    <style name="TextData" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">@color/colorGrayDark</item>
+        <item name="android:textSize">@dimen/text_size_22sp</item>
+    </style>
+
+    <style name="ButtonDefault" parent="@android:style/Widget.Material.Light.Button">
+        <item name="android:height">@dimen/default_button_height</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:padding">@dimen/default_padding_14dp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="ButtonBorderless" parent="@style/Widget.AppCompat.Button.Borderless">
+        <item name="android:height">@dimen/default_button_height</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:padding">@dimen/default_padding_14dp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+</resources>

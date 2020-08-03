@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">QR Code Scanner</string>
+
+    <!-- Navigation -->
+    <string name="scanner_fragment_label">Scanner de QR Code</string>
+
+    <!--  Fragment Home  -->
+    <string name="text_title">Olá, Alfredo</string>
+    <string name="text_subtitle">Seu QR Code de contato:</string>
+    <string name="contentDescription_your_qrcode">Seu QR Code</string>
+    <string name="button_text">ler qr code de outra pessoa</string>
+
+    <!--  Fragment User Data  -->
+    <string name="contentDescription_back_button">Voltar</string>
+    <string name="text_name">Nome:</string>
+    <string name="contentDescription_user_photo">Foto do contato</string>
+    <string name="text_contact_details">Dados do Contato</string>
+    <string name="button_back">Voltar</string>
+
+    <!--  ERROR  -->
+    <string name="error">Ops! Alguma coisa deu errado porfavor tente novamente mais tarde.</string>
+</resources>
