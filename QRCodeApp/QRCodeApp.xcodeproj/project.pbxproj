@@ -126,7 +126,6 @@
 			children = (
 				30D2AB492582D80000E2D0DC /* Controllers */,
 				30E4597C2582D2A400534BE5 /* Models */,
-				30E4597B2582D29A00534BE5 /* Services */,
 				304E03D125827062001D4A34 /* AppDelegate.swift */,
 				304E03D325827062001D4A34 /* SceneDelegate.swift */,
 				304E03D725827062001D4A34 /* Main.storyboard */,
@@ -164,13 +163,6 @@
 				30C8594E25842C8F00E56E4D /* BaseViewController.swift */,
 			);
 			path = Controllers;
-			sourceTree = "<group>";
-		};
-		30E4597B2582D29A00534BE5 /* Services */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Services;
 			sourceTree = "<group>";
 		};
 		30E4597C2582D2A400534BE5 /* Models */ = {

@@ -12,7 +12,15 @@ class UserInfoViewController: BaseViewController {
     
     @IBOutlet weak var userName: UILabel!
     @IBOutlet weak var userEmail: UILabel!
-    @IBOutlet weak var userImageView: UIImageView!
+    @IBOutlet weak var userImageView: UIImageView! {
+        didSet {
+            //userImageView.layer.cornerRadius = 20
+            userImageView.layer.cornerRadius = userImageView.frame.size.width / 2
+            userImageView.clipsToBounds = true
+            //userImageView.layer.borderColor = UIColor.blue.cgColor
+            //userImageView.layer.borderWidth = 4
+        }
+    }
     
     var userInfoData: User?
     
@@ -29,7 +37,6 @@ class UserInfoViewController: BaseViewController {
  
         view.window?.rootViewController?.dismiss(animated: true, completion: nil)
     }
-    
     
     private func setupImage() {
         
